@@ -1,16 +1,16 @@
 # Python
-*.pyc
 __pycache__/
-env/
-dist/
-build/
-*.egg-info/
-.eggs/
+*.pyc
+*.pyo
+*.pyd
 
-# IDEs and Editors
-.vscode/
-.idea/
-
-# Miscellaneous
-.DS_Store
+# Environment
 .env
+
+# IDE
+.vscode/
+*.code-workspace
+
+# Others
+*.log
+*.swp
